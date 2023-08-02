@@ -372,6 +372,10 @@
 	
 	
 }
+@media (max-width: 768px) {
+	.brochure-list {
+	  column-count: 1; /* Set the number of columns to 1 for smaller screens */
+	}
 
 @media only screen and (max-width: 767px){
 	

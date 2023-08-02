@@ -4444,8 +4444,11 @@
 /* Broucher List */
 
 .brochure-list{
+	column-count: 2; 
+  	column-gap: 20px; 
 	position: relative;
 }
+
 
 .brochure-list li{
 	position: relative;
