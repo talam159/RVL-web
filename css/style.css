@@ -27,6 +27,9 @@
 ====================================================================
 
 ***/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 
 .slider-one{
 	position: relative;
@@ -4761,10 +4764,23 @@
     font-family: 'Font Awesome 5 Brands';
 }
 
-.case-detail .info-column_inner .social-nav a:hover{
+/* .case-detail .info-column_inner .social-nav a:hover{
 	color: var(--white-color);
     background-color: var(--main-color);
+} */
+.case-detail .info-column_inner .social-nav #facebook:hover{
+	color: #fff;
+    background-color: #365397;
 }
+.case-detail .info-column_inner .social-nav #linkedin:hover{
+	color: #fff;
+    background-color: #0569AB;
+}
+.case-detail .info-column_inner .social-nav #youtube:hover{
+	color: #fff;
+    background-color: #FF3333;
+}
+
 
 .case-related-products{
 	position: relative;

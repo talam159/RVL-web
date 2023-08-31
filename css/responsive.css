@@ -616,6 +616,15 @@
 	}
 
 }
+@media only screen and (max-width: 479px) {
+	
+	#contact-email{
+		display: block;
+	}
+	#contact-phone{
+		display: block;
+	}
+}
 
 @media only screen and (max-width: 479px) {
 	

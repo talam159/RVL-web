@@ -57,11 +57,11 @@
 :root {
 	
 	/* #0092FF in decimal RGB */
-    --main-color: rgb(0,146,255);
-    --main-color-rgb:0,146,255;
+    --main-color: #2658A7;
+    --main-color-rgb:3,57,108;
   
     /* #1D2C38 in decimal RGB */
-    --color-two: rgb(29,44,56);
+    --color-two: #015B96;
     --color-two-rgb:29,44,56;
   
     /* #393939 in decimal RGB */
