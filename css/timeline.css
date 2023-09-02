@@ -319,6 +319,11 @@ body a {
     transform: translate3d(var(--decoration-pos-x), var( --decoration-pos-y), 0) scale(var(--decoration-scale));
     z-index: -1;
 }
+.timeline__slide-content p{
+    color: black;
+    font-size: 15px;
+    /* font-weight: 900; */
+}
 
 .timeline__slide {
     position: absolute;
