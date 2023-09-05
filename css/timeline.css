@@ -355,3 +355,22 @@ body a {
 .timeline__slide-content p:last-child {
     margin-bottom: 0;
 }
+.timeline__slide button{
+    background-color: #015B96;
+    color: #fff;
+    padding: 2px 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+.timeline__slide button:hover{
+    background-color: #03396C;
+    color: #fff;
+}
+.timeline__slide a{
+    text-decoration: none;
+}
+.timeline__slide a:hover{
+    text-decoration: none;
+    color: #fff;
+}
