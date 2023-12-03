@@ -1,0 +1,33 @@
+.logogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-auto-rows: 75px;
+    grid-gap: 4rem;
+}
+.logogrid__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logogrid__img {
+    object-fit: cover;
+    max-width: 120px;
+    max-height: 90px;
+    /* filter: grayscale(100%) contrast(25%); */
+    transition: filter 0.3s ease;
+}
+.logogrid__img:hover {
+    filter: grayscale(0) contrast(100%);
+}
+.our-clients {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 100px;
+    /* min-height: 100vh; */
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
